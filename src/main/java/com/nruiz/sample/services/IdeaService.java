@@ -30,7 +30,7 @@ public class IdeaService {
 
         this.ideaRepository.delete(id);
 
-        return false;
+        return true;
 
     }
 
